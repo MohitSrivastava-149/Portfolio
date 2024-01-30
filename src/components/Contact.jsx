@@ -2,11 +2,11 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div id='conatact' className='max-w-[1040] m-auto md:pl-20 p-4 py-16'>
+    <div id='contact' className='max-w-[1040] m-auto md:pl-20 p-4 py-16'>
         <h1 className='py-4 text-4xl font-bold text-center text-[#001b5e]'>Contact</h1>
 
         <form action="https://getform.io/f/714ca934-5893-4408-9b02-3b92d6ac8139" method='POST' encType='multipart/form-data'>
-            <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
+            <div className='grid grid-cols-2 gap-4 w-full py-2'>
                 <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2 '>Name</label>
                     <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name='name' />
